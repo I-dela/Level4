@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RockPaperScissors</string>
+    <string name="action_settings">Settings</string>
+    <string name="Welkom">Welcome</string>
+    <string name="instruction">Instructions: select rock, paper or scissors to play.</string>
+    <string name="tvStatistics">Your all time statistics</string>
+    <string name="win">Win: </string>
+    <string name="draw">Draw: </string>
+    <string name="lose">Lose: </string>
+    <string name="result">Result</string>
+    <string name="Versus">V.S</string>
+    <string name="computer">Computer</string>
+    <string name="you">You</string>
+    <string name="history">History</string>
+    <string name="delete_all">Delete all</string>
+    <string name="title_activity_results">ResultsActivity</string>
+</resources>
