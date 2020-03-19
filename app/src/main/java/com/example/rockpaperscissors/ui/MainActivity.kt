@@ -1,7 +1,6 @@
 package com.example.rockpaperscissors.ui
 
 import android.content.Intent
-import android.graphics.ColorSpace.match
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
@@ -11,6 +10,7 @@ import com.example.rockpaperscissors.database.GameRepository
 import com.example.rockpaperscissors.models.ComputerRandomChoice
 import com.example.rockpaperscissors.models.Game
 import com.example.rockpaperscissors.models.Options
+import com.example.rockpaperscissors.ui.UiImage.Companion.getImage
 
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
@@ -95,15 +95,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun getImage(choice: String): Int {
-        if (choice == Options.SCISSORS.toString()) {
-            return R.drawable.scissors
-        }
-        if (choice == Options.PAPER.toString()) {
-            return R.drawable.paper
-        }
-        return R.drawable.rock
-    }
 
 
     private fun saveResultToDatabase(result: Game) {
